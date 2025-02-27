@@ -25,7 +25,7 @@ jobs:
               uses: actions/download-artifact@v4
               with:
                 name: first-workflow
-                path: ./first_workflow.txt
+                path: first_workflow.txt
 
             - name: run text file
               run: |
