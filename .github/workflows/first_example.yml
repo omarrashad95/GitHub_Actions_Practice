@@ -25,12 +25,11 @@ jobs:
               uses: actions/download-artifact@v4
               with:
                 name: first-workflow
-                path: first_workflow.txt
 
             - name: run text file
               run: |
                 ls -ltra
-                cat ./first_workflow.txt
+                cat first_workflow.txt
 
 
     deploy_job:
