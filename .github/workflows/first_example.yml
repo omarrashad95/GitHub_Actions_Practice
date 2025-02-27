@@ -30,7 +30,7 @@ jobs:
             - name: run text file
               run: |
                 ls -ltra
-                cat first_workflow.txt
+                cat ./first_workflow.txt
 
 
     deploy_job:
