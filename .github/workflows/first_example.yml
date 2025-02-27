@@ -14,7 +14,7 @@ jobs:
           uses: actions/upload-artifact@v4
           with:
             name: first-workflow
-            path: ./first_workflow.txt
+            path: first_workflow.txt
 
 
     test_job:
